@@ -24,3 +24,115 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/* solution */
+
+
+/* remove default style of list and anchor tags */
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+* {
+  padding: 0px;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header and footer*/
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 16px;
+}
+
+
+/* main page style */
+
+.content,
+.buttons {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  align-text: center;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
